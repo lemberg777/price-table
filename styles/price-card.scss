@@ -1,0 +1,84 @@
+@import 'price-card-green.scss';
+@import 'price-card-blue.scss';
+@import 'price-card-orange.scss';
+.price-table {
+  min-width: 1176px;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+}
+
+.price-card {
+  width: 380px;
+  height: 770px;
+  background-color: #334247;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 0;
+
+  &__title {
+    font-size: 35px;
+    line-height: 43px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-top: 33px;
+  }
+  &__title-element {
+    font-size: 20px;
+    line-height: 24px;
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+  }
+  &__price {
+    width: 100%;
+    height: 105px;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 105px;
+    text-align: center;
+    margin-top: 33px;
+  }
+  &__description {
+    width: 327.49px;
+    height: 36px;
+    font-size: 15px;
+    text-align: center;
+    line-height: 18px;
+    margin: 40px 26.51px 40px 26px;
+  }
+  &__option-list {
+    width: 100%;
+    height: 300px;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    :nth-child(odd) {
+      background-color: #2a3438;
+    }
+
+    &_item {
+      height: 50px;
+      list-style-type: none;
+      font-size: 15px;
+      line-height: 50px;
+    }
+    &_item:before {
+      padding: 22px;
+    }
+  }
+  &__order-btn {
+    width: 154.63px;
+    height: 40px;
+    color: #ffffff;
+    font-size: 14px;
+    border-radius: 20px;
+    font-weight: 400px;
+    border: none;
+    margin: 39px 113.37px 40px 112px;
+  }
+}

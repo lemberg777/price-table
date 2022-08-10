@@ -1,0 +1,38 @@
+.price-card-blue {
+  position: relative;
+  width: 398px;
+  height: 788px;
+  background-color: #141b1c;
+}
+.price-card__price_blue {
+  background-color: #3a6ba5;
+}
+.item-blue:before {
+  content: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
+}
+.order-btn-blue {
+  background-color: #3a6ba5;
+}
+.mark {
+  position: absolute;
+  width: 122px;
+  height: 123px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 0;
+  top: -18px;
+  right: -18px;
+
+  &__text {
+    height: 25.01px;
+    min-width: 147.08px;
+    font-size: 14px;
+    background-color: #dc3f45;
+    text-align: center;
+    line-height: 25.01px;
+    transform: rotate(45deg);
+    font-weight: 700;
+  }
+}

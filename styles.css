@@ -1,0 +1,172 @@
+html {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 300px;
+  color: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+main {
+  width: 1440px;
+  height: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #141b1c;
+  margin: auto;
+}
+
+.price-card__price_green {
+  background-color: #5bb189;
+}
+
+.item-green:before {
+  content: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
+}
+
+.order-btn-green {
+  background-color: #5bb189;
+}
+
+.price-card-blue {
+  position: relative;
+  width: 398px;
+  height: 788px;
+  background-color: #141b1c;
+}
+
+.price-card__price_blue {
+  background-color: #3a6ba5;
+}
+
+.item-blue:before {
+  content: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
+}
+
+.order-btn-blue {
+  background-color: #3a6ba5;
+}
+
+.mark {
+  position: absolute;
+  width: 122px;
+  height: 123px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 0;
+  top: -18px;
+  right: -18px;
+}
+.mark__text {
+  height: 25.01px;
+  min-width: 147.08px;
+  font-size: 14px;
+  background-color: #dc3f45;
+  text-align: center;
+  line-height: 25.01px;
+  transform: rotate(45deg);
+  font-weight: 700;
+}
+
+.price-card__price_orange {
+  background-color: #ec632a;
+}
+
+.item-orange:before {
+  content: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
+}
+
+.order-btn-orange {
+  background-color: #ec632a;
+}
+
+.price-table {
+  min-width: 1176px;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+}
+
+.price-card {
+  width: 380px;
+  height: 770px;
+  background-color: #334247;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 0;
+}
+.price-card__title {
+  font-size: 35px;
+  line-height: 43px;
+  font-weight: 700;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  margin-top: 33px;
+}
+.price-card__title-element {
+  font-size: 20px;
+  line-height: 24px;
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+}
+.price-card__price {
+  width: 100%;
+  height: 105px;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 105px;
+  text-align: center;
+  margin-top: 33px;
+}
+.price-card__description {
+  width: 327.49px;
+  height: 36px;
+  font-size: 15px;
+  text-align: center;
+  line-height: 18px;
+  margin: 40px 26.51px 40px 26px;
+}
+.price-card__option-list {
+  width: 100%;
+  height: 300px;
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
+}
+.price-card__option-list :nth-child(odd) {
+  background-color: #2a3438;
+}
+.price-card__option-list_item {
+  height: 50px;
+  list-style-type: none;
+  font-size: 15px;
+  line-height: 50px;
+}
+.price-card__option-list_item:before {
+  padding: 22px;
+}
+.price-card__order-btn {
+  width: 154.63px;
+  height: 40px;
+  color: #ffffff;
+  font-size: 14px;
+  border-radius: 20px;
+  font-weight: 400px;
+  border: none;
+  margin: 39px 113.37px 40px 112px;
+}
+
+/*# sourceMappingURL=styles.css.map */
