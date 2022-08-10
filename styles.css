@@ -41,6 +41,7 @@ main {
   width: 398px;
   height: 788px;
   background-color: #141b1c;
+  overflow: hidden;
 }
 
 .price-card__price_blue {
